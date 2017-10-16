@@ -31,6 +31,7 @@ public class Main extends BasicGame {
 			appgc.setDisplayMode(640, 480, false);
 			appgc.setVSync(true);
 			appgc.start();
+			System.out.println();
 		} catch(SlickException e) {
 			e.printStackTrace();
 		}
